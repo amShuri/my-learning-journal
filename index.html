@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Journal - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav-bar">
+                <a href="index.html" class="page-logo">
+                    <img 
+                        class="page-img" 
+                        src="images/logo-image.png" 
+                        alt="Learning Journal logo">
+                    <span class="page-title">Learning Journal</span>
+                </a>
+                <ul class="nav-links">
+                    <li>
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a class="nav-link" href="about-me.html">About me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <a href="article.html"  class="featured-post-container">
+                <div class="container featured-post-body"> 
+                    <time datetime="2022-07-23">July 23, 2022</time>
+                    <h1>
+                        My new journey as a bootcamp student.
+                    </h1>
+                    <p class="featured-post-text">
+                        After several months of learning in the Frontend Developer 
+                        Career Path, I've made the big jump over to the Bootcamp to
+                        get expert code reviews of my Solo projects and meet 
+                        like-minded peers.
+                    </p>
+                </div>
+            </a>
+        </article>
+
+        <section class="recent-post-container">
+            <div class="container recent-post-list" id="recent-post-list"></div>
+            <button class="view-more" id="view-more">View More</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-title">My Learning Journal</p>
+        <p class="footer-copy">Copyright &copy2022</p>
+    </footer>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
