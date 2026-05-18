@@ -5,10 +5,10 @@ A responsive multi-page learning journal built using a mobile-first approach. Po
 ## Screenshots
 
 ### Small Screens
-![project screenshot](/preview/small-screen.jpg)
+![project screenshot](/preview/small-screen.png)
 
 ### Large Screens
-![project screenshot](/preview/large-screen.jpg)
+![project screenshot](/preview/large-screen.png)
 
 ## Credits
 
